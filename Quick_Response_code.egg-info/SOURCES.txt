@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-Quick_Response_code.egg-info/PKG-INFO
-Quick_Response_code.egg-info/SOURCES.txt
-Quick_Response_code.egg-info/dependency_links.txt
-Quick_Response_code.egg-info/requires.txt
-Quick_Response_code.egg-info/top_level.txt
