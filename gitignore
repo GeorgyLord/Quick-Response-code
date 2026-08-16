@@ -1,7 +1,10 @@
 # Временные папки сборки Python
 build/
 dist/
-*.egg-info/
+*.egg-info
+**/*.egg-info/
+
+
 
 # Виртуальное окружение (если создавали)
 venv/
