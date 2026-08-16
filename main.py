@@ -1,6 +1,9 @@
 import ctypes
 from plyer import filechooser
-from scan import *
+
+from scan import read_qr_code
+from generation import create_qr
+
 
 try:
     # Метод для Windows 8.1 / 10 / 11 (динамическое масштабирование под монитор)
@@ -22,11 +25,12 @@ while True:
     except:
         continue
     if number_option == 1:
-        text = input()
+        text = input('Введите текст qr-кода: ')
+        create_qr(text=text)
     elif number_option == 2:
         path = filechooser.open_file(
             title="Выберите файл для бота",
-            multiple=False, # True, если нужно выбрать несколько
+            multiple=False,  # True, если нужно выбрать несколько
             filters=[("Изображения и конфиги", "*.png", "*.jpg", "*.toml")]
         )
         if path:
