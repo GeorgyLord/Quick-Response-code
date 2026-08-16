@@ -1,0 +1,15 @@
+[project]
+name = "Quick-Response-code"
+version = "1.0.0"
+description = "CLI для создания и считывания qr кодов"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama==0.4.6",
+    "pillow==12.3.0",
+    "pyzbar==0.1.9",
+    "qrcode==8.2",
+    "segno==1.6.6",
+    "plyer==2.1.0",
+    "pywin32==308"
+]
