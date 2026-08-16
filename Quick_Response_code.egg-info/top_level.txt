@@ -1,1 +1,1 @@
-images
+qr_exports

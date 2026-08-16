@@ -42,7 +42,3 @@ def read_qr_code(image_path):
                 
     except Exception as e:
         print(f"Произошла непредвиденная ошибка при обработке файла: {e}")
-
-# Запуск программы для вашего файла
-if __name__ == "__main__":
-    read_qr_code("custom_qr.png")
