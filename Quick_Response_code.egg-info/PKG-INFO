@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: Quick-Response-code
+Version: 1.0.0
+Summary: Телеграм-бот для отслеживания курсов криптовалют
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama==0.4.6
+Requires-Dist: pillow==12.3.0
+Requires-Dist: pyzbar==0.1.9
+Requires-Dist: qrcode==8.2
+Requires-Dist: segno==1.6.6
+Dynamic: license-file
+
+# создаем виртуальное окружение, если нет
+python -m venv .venv
+
+# активируем виртуальное окружение
+source .venv/Scripts/activate
+
+pip install -r requirements.txt
